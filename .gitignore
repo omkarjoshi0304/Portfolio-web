@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+.DS_Store
+test-results/
+.npm-cache/
+/Portfolio-web.bundle
+/publish-to-github.command

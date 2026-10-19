@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="1120" viewBox="0 0 960 1120" role="img" aria-labelledby="title description">
+  <title id="title">AI, with context.</title>
+  <desc id="description">An AI application diagram connecting a question to contextual retrieval, a vector store, source documents, and a grounded response.</desc>
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#5c7480" stroke-opacity=".09"/></pattern>
+    <radialGradient id="glow"><stop stop-color="#a3c9df" stop-opacity=".09"/><stop offset="1" stop-color="#a3c9df" stop-opacity="0"/></radialGradient>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M1 1L6 4L1 7" fill="none" stroke="#a3c9df" stroke-width="1.2"/></marker>
+  </defs>
+  <rect width="960" height="1120" fill="#162128"/>
+  <rect width="960" height="1120" fill="url(#grid)"/>
+  <ellipse cx="480" cy="600" rx="480" ry="470" fill="url(#glow)"/>
+  <text x="80" y="81" fill="#8d9fa7" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" font-weight="400" letter-spacing="2">ENGINEERING NOTES / 01</text>
+  <path d="M80 115H880" fill="none" stroke="#35464e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="869" cy="75" r="5" fill="#a3c9df" stroke="none"/>
+  <text x="80" y="193" fill="#e7edea" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="57" font-weight="500" letter-spacing="-1.5">AI, with context.</text>
+  <text x="80" y="238" fill="#8d9fa7" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="23" font-weight="400">Useful applications start with grounded answers.</text>
+
+    <rect x="310" y="319" width="340" height="72" rx="14" fill="#1c2930" stroke="#35464e"/>
+    <text x="480" y="363" fill="#a3c9df" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="20" font-weight="400" text-anchor="middle">QUESTION + CONTEXT</text>
+    <path d="M480 391V435" fill="none" stroke="#a3c9df" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+    <rect x="160" y="449" width="640" height="266" rx="18" fill="#1b2a33" stroke="#527184"/>
+    <text x="192" y="488" fill="#a3c9df" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18" font-weight="400" letter-spacing="1">CONTEXT RETRIEVAL</text>
+    <rect x="192" y="512" width="174" height="169" rx="9" fill="#17252d" stroke="#35464e"/>
+    <circle cx="223" cy="548" r="5" fill="#a3c9df" stroke="none"/><circle cx="257" cy="548" r="5" fill="#485f6b" stroke="none"/><circle cx="291" cy="548" r="5" fill="#485f6b" stroke="none"/><circle cx="325" cy="548" r="5" fill="#a3c9df" stroke="none"/><circle cx="223" cy="579" r="5" fill="#485f6b" stroke="none"/><circle cx="257" cy="579" r="5" fill="#485f6b" stroke="none"/><circle cx="291" cy="579" r="5" fill="#a3c9df" stroke="none"/><circle cx="325" cy="579" r="5" fill="#485f6b" stroke="none"/><circle cx="223" cy="610" r="5" fill="#485f6b" stroke="none"/><circle cx="257" cy="610" r="5" fill="#a3c9df" stroke="none"/><circle cx="291" cy="610" r="5" fill="#485f6b" stroke="none"/><circle cx="325" cy="610" r="5" fill="#485f6b" stroke="none"/>
+    <text x="279" y="655" fill="#8d9fa7" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="17" font-weight="400" text-anchor="middle">Vector store</text>
+    <rect x="398" y="512" width="370" height="169" rx="9" fill="#17252d" stroke="#35464e"/>
+    <text x="422" y="546" fill="#8d9fa7" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" font-weight="400">SOURCE DOCUMENTS</text>
+    <path d="M422 564H743" fill="none" stroke="#35464e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="422" y="594" fill="#e7edea" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="20" font-weight="400">architecture.md</text>
+    <text x="422" y="627" fill="#e7edea" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="20" font-weight="400">operations.md</text>
+    <text x="422" y="660" fill="#e7edea" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="20" font-weight="400">troubleshooting.md</text>
+    <path d="M480 715V762" fill="none" stroke="#a3c9df" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+    <rect x="228" y="776" width="504" height="112" rx="14" fill="#21353d" stroke="#527184"/>
+    <circle cx="267" cy="818" r="6" fill="#a4c4ac" stroke="none"/>
+    <text x="292" y="825" fill="#e7edea" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="21" font-weight="400">GROUNDED RESPONSE</text>
+    <text x="263" y="860" fill="#8d9fa7" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="20" font-weight="400">Relevant context. Traceable sources.</text>
+
+  <path d="M80 964H880" fill="none" stroke="#35464e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="80" y="995" width="64" height="38" rx="19" fill="#172329" stroke="#35464e"/><text x="97" y="1019" fill="#a3c9df" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" font-weight="400">RAG</text><rect x="156" y="995" width="164" height="38" rx="19" fill="#172329" stroke="#35464e"/><text x="173" y="1019" fill="#a3c9df" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" font-weight="400">VECTOR SEARCH</text><rect x="332" y="995" width="194" height="38" rx="19" fill="#172329" stroke="#35464e"/><text x="349" y="1019" fill="#a3c9df" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" font-weight="400">LLM APPLICATIONS</text>
+  <text x="80" y="1080" fill="#8d9fa7" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="400" letter-spacing="1.5">AI APPLICATIONS / PLATFORM ENGINEERING</text>
+</svg>

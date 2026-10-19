@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="1120" viewBox="0 0 960 1120" role="img" aria-labelledby="title description">
+  <title id="title">Agents, with intent.</title>
+  <desc id="description">An agent workflow connecting a user request to an orchestrator, tools, retrieval, human approval, and a validated response.</desc>
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#5c7480" stroke-opacity=".09"/></pattern>
+    <radialGradient id="glow"><stop stop-color="#d8b38b" stop-opacity=".09"/><stop offset="1" stop-color="#d8b38b" stop-opacity="0"/></radialGradient>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M1 1L6 4L1 7" fill="none" stroke="#d8b38b" stroke-width="1.2"/></marker>
+  </defs>
+  <rect width="960" height="1120" fill="#162128"/>
+  <rect width="960" height="1120" fill="url(#grid)"/>
+  <ellipse cx="480" cy="600" rx="480" ry="470" fill="url(#glow)"/>
+  <text x="80" y="81" fill="#8d9fa7" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" font-weight="400" letter-spacing="2">ENGINEERING NOTES / 02</text>
+  <path d="M80 115H880" fill="none" stroke="#35464e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="869" cy="75" r="5" fill="#d8b38b" stroke="none"/>
+  <text x="80" y="193" fill="#e7edea" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="57" font-weight="500" letter-spacing="-1.5">Agents, with intent.</text>
+  <text x="80" y="238" fill="#8d9fa7" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="23" font-weight="400">Tools, conversation state, and human oversight.</text>
+
+    <rect x="330" y="319" width="300" height="68" rx="14" fill="#1c2930" stroke="#35464e"/>
+    <text x="480" y="361" fill="#d8b38b" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="20" font-weight="400" text-anchor="middle">USER REQUEST</text>
+    <path d="M480 387V438" fill="none" stroke="#d8b38b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+    <rect x="309" y="452" width="342" height="109" rx="15" fill="#332f2a" stroke="#7e6b57"/>
+    <text x="480" y="498" fill="#e7edea" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="25" font-weight="400" text-anchor="middle">ORCHESTRATOR</text>
+    <text x="480" y="534" fill="#d8b38b" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18" font-weight="400" text-anchor="middle">plan / state / context</text>
+    <path d="M480 561V599M252 614V599H708V614M480 599V614" fill="none" stroke="#d8b38b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+    <rect x="164" y="629" width="176" height="126" rx="14" fill="#1c2930" stroke="#35464e"/><circle cx="252" cy="665" r="7" fill="#d8b38b" stroke="none"/><text x="252" y="709" fill="#e7edea" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="19" font-weight="400" text-anchor="middle">TOOLS</text><text x="252" y="735" fill="#8d9fa7" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="15" font-weight="400" text-anchor="middle">integrations</text><rect x="392" y="629" width="176" height="126" rx="14" fill="#1c2930" stroke="#35464e"/><circle cx="480" cy="665" r="7" fill="#d8b38b" stroke="none"/><text x="480" y="709" fill="#e7edea" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="19" font-weight="400" text-anchor="middle">RETRIEVAL</text><text x="480" y="735" fill="#8d9fa7" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="15" font-weight="400" text-anchor="middle">knowledge</text><rect x="620" y="629" width="176" height="126" rx="14" fill="#1c2930" stroke="#35464e"/><circle cx="708" cy="665" r="7" fill="#a4c4ac" stroke="none"/><text x="708" y="709" fill="#e7edea" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="19" font-weight="400" text-anchor="middle">APPROVAL</text><text x="708" y="735" fill="#8d9fa7" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif" font-size="15" font-weight="400" text-anchor="middle">human review</text>
+    <path d="M252 755V791H708V755M480 791V824" fill="none" stroke="#d8b38b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+    <rect x="269" y="839" width="422" height="68" rx="14" fill="#1c2930" stroke="#35464e"/>
+    <text x="480" y="881" fill="#d8b38b" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="20" font-weight="400" text-anchor="middle">VALIDATED RESPONSE</text>
+
+  <path d="M80 964H880" fill="none" stroke="#35464e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="80" y="995" width="114" height="38" rx="19" fill="#172329" stroke="#35464e"/><text x="97" y="1019" fill="#d8b38b" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" font-weight="400">TOOL USE</text><rect x="206" y="995" width="84" height="38" rx="19" fill="#172329" stroke="#35464e"/><text x="223" y="1019" fill="#d8b38b" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" font-weight="400">STATE</text><rect x="302" y="995" width="184" height="38" rx="19" fill="#172329" stroke="#35464e"/><text x="319" y="1019" fill="#d8b38b" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" font-weight="400">HUMAN OVERSIGHT</text>
+  <text x="80" y="1080" fill="#8d9fa7" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="400" letter-spacing="1.5">AI APPLICATIONS / PLATFORM ENGINEERING</text>
+</svg>
